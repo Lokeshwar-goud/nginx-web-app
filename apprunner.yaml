@@ -1,0 +1,8 @@
+version: 1.0
+runtime: nodejs16
+build:
+  commands:
+    - echo "No build step required"
+start:
+  command: nginx -g 'daemon off;'
+  port: 80
